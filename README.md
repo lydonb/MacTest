@@ -87,13 +87,6 @@ Install the apex-lang package from https://code.google.com/p/apex-lang/. Choose 
 2. Click the **Create New Folder** link.
 3. Name the folder "ELP", and click **Save.**
 
-Add Roles
-Add pick list values to Account.Type
-Update RecordTypes on Account, Contact
-Add pick list values to Opportunity.LeadSource & Opportunity.Stage
-Deploy Account, Contact, User
-Deploy custom objects
-Update workflow email address in XML (if changed)
-Added static resources “add” and “delete”
-Replaced Account Object
-Changed Opportunity.Subscription_Type__c to Opportunity.SubscriptionType__c in ELP layouts
+###Update Workflow Email (if not elp.noreply@daveramsey.com)
+
+If you set your Organization Wide Email Address to something other than "elp.noreply@daveramsey.com", then open the workflows/Opportunity.workflow file, find & replace the email address "elp.noreply@daveramsey.com" with the email address you set as your Organization Wide Email Address.
